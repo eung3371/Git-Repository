@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYMBOXX</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #1e1e1e;
+            color: #dcdcdc;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background: #121212;
+            color: #f10c0c;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            letter-spacing: 1px;
+        }
+
+        nav {
+            background: #2a2a2a;
+            color: #ffffff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        section {
+            display: flex;
+            flex: 1;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        article {
+            flex: 3;
+            background: #2a2a2a;
+            padding: 30px;
+            margin-right: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+            border-radius: 8px;
+            color: #dcdcdc;
+        }
+
+        article h2 {
+            color: #ffffff;
+            margin-top: 0;
+            font-size: 2rem;
+        }
+
+        article p {
+            margin: 15px 0;
+            line-height: 1.8;
+        }
+
+        article img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        article h3 {
+            margin-top: 20px;
+            font-size: 1.5rem;
+        }
+
+        article button {
+            background-color: #000;
+            color: #fff;
+            font-weight: bold;
+            font-size: 1.1rem;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 15px;
+        }
+
+        aside {
+            flex: 1;
+            background: #333333;
+            padding: 30px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+            border-radius: 8px;
+            color: #dcdcdc;
+        }
+
+        aside h3 {
+            color: #f10c0c;
+            font-size: 1.5rem;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        aside h4 {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+            color: #ffffff;
+        }
+
+        aside button {
+            background-color: red;
+            color: #000;
+            font-weight: bold;
+            font-size: 1.1rem;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+            width: 100%;
+        }
+
+        footer {
+            background: #121212;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>GYMBOXX</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">브랜드</a></li>
+            <li><a href="#">지점 찾기</a></li>
+            <li><a href="#">멤버십</a></li>
+            <li><a href="#">PT+</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <article>
+            <h2>성신여대점</h2>
+            <p>평일 : 06:00 - 24:00</p>
+            <p>주말 | 공휴일 : 09:00 ~ 21:00</p>
+            <img src="https://cdn.imweb.me/upload/S201807065b3f0217a9b0e/0395d07871419.png" alt="성신여대점 사진">
+            <p>짐박스 성신여대점은 서울 성북구에 처음 선보이는 매장으로, 지하철 4호선과 우이신설선 성신여대역 3번 출구 바로 옆에 위치해 있어 접근이 매우 용이합니다. 이곳은 넓은 지하 공간을 효율적으로 활용, 최신 운동 기구와 광활한 프리웨이트 존을 완비되어 있으며, 모든 헬스인들에게 최적의 환경을 제공합니다. 탁월한 시설과 편안한 운동 분위기로 인근 최고, 최적, 최상의 헬스 공간을 선보입니다.</p>
+
+            <h3>원하는 부위가 어디든</h3>
+            <p>짐박스 성신여대점은 올드스쿨 명품 머신부터 최신의 외산 머신들의 다양한 조합을 갖춰 원하는 부위가 어디든 최고의 머신으로 운동할 수 있습니다.</p> 
+            <button>성신여대점 머신 라인업<br>확인하기</button>
+        </article>
+
+        <aside>
+            <h3>짐박스 멤버십 <br>(성신여대점)</h3>
+            <p>짐박스 회원 멤버십은 모두 온라인 결제를 통해 구매하실 수 있습니다.</p>
+            <h4>구독 멤버십 BASIC<br>월 43,900원</h4>
+
+            <h4>구독 멤버십 PRO<br>월 53,800원</h4>
+
+            <h4>365일 PASS<br>연 360,000원(특가)</h4>
+            <hr>
+            <p>짐박스 APP을 통해 출입 관리, 멤버십 결제, 각종 편의 기능 등을 제공하며 헬스장의 한계를 넘어서고 있습니다.</p>
+            <button>짐박스 앱<br>설치하러 가기</button>
+        </aside>
+    </section>
+
+    <footer>
+        <p>회사 소개 &nbsp&nbsp 제휴 &nbsp&nbsp 문의 &nbsp&nbsp 이용약관 &nbsp&nbsp 개인정보처리방침 &nbsp&nbsp INSTAGRAM &nbsp&nbsp 카카오톡 채널</p>
+    </footer>
+
+</body>
+</html>
